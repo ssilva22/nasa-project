@@ -26,10 +26,9 @@ const connectDB = async () => {
 async function startServer() {
   await loadPlanetsData()
 
-  connectDB()
   server.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`)
   })
 }
-
+connectDB()
 startServer()
