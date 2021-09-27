@@ -1,5 +1,8 @@
 //IMPORTANT: MAKE SURE TO MAKE .env FILE!!!!!!!!!!!!!!!!!
 const mongoose = require("mongoose")
+const dotenv = require('dotenv')
+
+dotenv.config()
 
 mongoose.connection.once('open',() => {
   console.log("Mongodb connected")
