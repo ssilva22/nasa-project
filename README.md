@@ -5,24 +5,20 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+          <li><a href="#built-with">Built With</a></li>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+
+              <a href="#about-the-project">About The Project</a>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -35,7 +31,7 @@ https://user-images.githubusercontent.com/80421938/148817014-478a4eeb-18c2-4b61-
 
 
 
-## Buit With
+## Built With
 * React
 * MongoDB
 * Express
@@ -45,8 +41,18 @@ https://user-images.githubusercontent.com/80421938/148817014-478a4eeb-18c2-4b61-
 
 ## About the Project
 
-## Prerequisites
-* Good 
+<p>This project is a static website which integrates the SpaceX API and Nasa's kepler exoplanet database into a MongoDB cluster on a REST 
+Node.js server that allows you book space travels to the exoplanets most similar to earth
+
+  The static website structure is composed of the client and the server . The client is the frontend part of the project and the server is the backend . The backend server is built with node.js and uses an MVC structure . There are many ways of deploying MERN applications , one is to use the library "concurrently" and connect both client and server and make them run at the same time . This app does not use that method. Instead, it runs an optimized build of the frontend and serves it directly through the express server. This streamlines the deployment process and separates concerns by only worrying about one server instead of two servers running at the same time .
+  
+This project also has a CI/CD pipeline through Github Actions that automates the workflow for common deployment tasks. It also has a Docker Image ready to be served on an AWS EC2 instance or any other cloud tool of your preference for deploying dockerized applications.
+  
+
+
+</p>
+
+
 
 
 
