@@ -1,15 +1,5 @@
 # nasa-project
 
-# My Universal React Project
-
-<p>
-  <!-- Web -->
-  <a href="https://docs.expo.dev/workflow/web/">
-    <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
-  </a>
-</p>
-
-
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -46,12 +36,18 @@ https://user-images.githubusercontent.com/80421938/148817014-478a4eeb-18c2-4b61-
 
 
 ## Buit With
-* React-Native
-* Expo
-* Redux
-* Firebase
-* Google Places API
-* Yelp API
+* React
+* MongoDB
+* Express
+* Docker
+* Github Actions
+* SpaceX API
+
+## About the Project
+
+## Prerequisites
+* Good 
+
 
 
 ## 🚀 How to use
@@ -61,14 +57,38 @@ https://user-images.githubusercontent.com/80421938/148817014-478a4eeb-18c2-4b61-
    ```
 2. Install npm packages
    ```sh
+    cd {name of cloned repo}
     npm install  OR yarn install
    ```
-3. Run the server
+3. Setup environment variables
    ```sh
-    expo start
+    cd server
+    touch .env
+   ```
+4. You will notice a .env file has been created, open it in your text editor of preference and do the following:
+
+      ```sh
+    PORT: {Desired Port}
+    MONGO_URL: {MONGOURIconnectingToYourCluster}
+   ```
+5. Go to the project's root directory and start the server:
+  
+     ```sh
+      npm run watch OR yarn watch
    ```
    
-
+ <strong>If you want to run the backend server only: </strong>
+  
+    ```sh
+      npm run server
+    ```
+    
+  <strong>If you want to run the frontend server only: </strong>
+   
+    ```sh
+      npm run client
+    ```
+   
 
 ## Contributing
 
