@@ -65,15 +65,15 @@ This project also has a CI/CD pipeline through Github Actions that automates the
    
  <strong>If you want to run the backend server only: </strong>
   
-    ```sh
+   
       npm run server
-    ```
+    
     
   <strong>If you want to run the frontend server only: </strong>
    
-    ```sh
+   
       npm run client
-    ```
+   
    
 
 ## Contributing
