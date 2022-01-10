@@ -40,6 +40,10 @@
 
 
 
+https://user-images.githubusercontent.com/80421938/148817014-478a4eeb-18c2-4b61-a4cf-7a317e756d43.mp4
+
+
+
 
 ## Buit With
 * React-Native
@@ -64,10 +68,7 @@
     expo start
    ```
    
-   <strong><i>Note: After running expo start you will see a page like the one below . If you want to run it in your phone download the Expo App on the Play Store
-   or Expo Go for Apple and scan the QR code with your phone and the project will  open automatically. You can also run it on the browser
-    by clicking "Run in Web browser" if that works better for you.</i></strong>
-    <img width="900" alt="Expo-Server-Image-ssilva22-Sebwebdesign" src="https://user-images.githubusercontent.com/80421938/148712957-eea00a39-4073-4019-9c82-8f09b32a6281.png">
+
 
 ## Contributing
 
@@ -84,20 +85,3 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Adding Native Code
-
-This project can be run from a web browser or the Expo client app. You may find that you want to add more native code later on. You can do this by ejecting the project and rebuilding it yourself.
-
-- Run `yarn eject` to create the native projects.
-- You can still run your project in the web browser or Expo client, you just won't be able to access any new native modules you add.
-
-## Publishing
-
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.dev/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.dev/distribution/publishing-websites/).
-
-## 📝 Notes
-
-- Learn more about [Universal React](https://docs.expo.dev/).
-- See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
