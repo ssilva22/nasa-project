@@ -61,7 +61,7 @@ This project also has a CI/CD pipeline through Github Actions that automates the
   
      ```sh
       npm run watch OR yarn watch
-   ```
+    ```
    
  <strong>If you want to run the backend server only: </strong>
   
